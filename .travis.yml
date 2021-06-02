@@ -9,6 +9,6 @@ before_install:
   - docker build -t vigilx/docker-react -f dockerfile.dev .
 
 script:
-  - docker run vigilx/docker-react npm run test -- --coverage
+  - docker run -it vigilx/docker-react npm run test -- --coverage
 
  
