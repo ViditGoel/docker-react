@@ -1,6 +1,6 @@
 language: generic
 os: linux
-sudo: required
+#sudo: required
 
 services:
   - docker
