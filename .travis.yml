@@ -1,4 +1,7 @@
+language: generic
+
 sudo: required
+
 services:
   - docker
 
@@ -7,4 +10,5 @@ before_install:
 
 script:
   - docker run vigilx/docker-react npm run test -- --coverage
-   
+
+ 
